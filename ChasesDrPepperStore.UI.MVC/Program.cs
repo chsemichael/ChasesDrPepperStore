@@ -1,3 +1,4 @@
+using ChasesDrPepperStore.DATA.EF.Models;
 using ChasesDrPepperStore.UI.MVC.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.CodeAnalysis.Options;
@@ -10,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+builder.Services.AddDbContext <StoreContext> (options =>options.UseSqlServer(connectionString));
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>options.SignIn.RequireConfirmedAccount =true).AddRoles<IdentityRole>().AddRoleManager < RoleManager < IdentityRole >> ().AddEntityFrameworkStores < ApplicationDbContext> ();

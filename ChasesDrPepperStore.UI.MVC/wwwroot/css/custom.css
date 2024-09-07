@@ -1,0 +1,28 @@
+﻿.hero_area{
+    min-height: 0;
+}
+
+.carousel-inner{
+    min-height: 50vh;
+}
+
+/* UDPATE Cart Submit button */
+form input[type="submit"].btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+
+/* OVERRULE the foolish css that applies capitalization in the text form fields */
+form input, form textarea
+{
+    text-transform: none;
+}
+
+
+/* OVERRULE MODAL DIALOG so that I get white bg so it's readable */
+.modal.show .modal-dialog
+{
+    background-color: #fff;
+}

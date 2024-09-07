@@ -38,4 +38,11 @@ namespace ChasesDrPepperStore.UI.MVC.Models
         public string UserName { get; set; }
         public bool IsSelected { get; set; }
     }
+
+    public class RoleUserViewModel
+    {
+        public string RoleId { get; set; }
+        public string RoleName { get; set; }
+        public bool IsSelected { get; set; }
+    }
 }

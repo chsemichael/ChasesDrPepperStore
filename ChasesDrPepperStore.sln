@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChasesDrPepperStore.UI.MVC", "ChasesDrPepperStore.UI.MVC\ChasesDrPepperStore.UI.MVC.csproj", "{C5F7D766-19E0-4A5F-A9CE-E9C6B93D1590}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChasesDrPepperStore.UI.MVC", "ChasesDrPepperStore.UI.MVC\ChasesDrPepperStore.UI.MVC.csproj", "{C5F7D766-19E0-4A5F-A9CE-E9C6B93D1590}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChasesDrPepperStore.DATA.EF", "ChasesDrPepperStore.DATA.EF\ChasesDrPepperStore.DATA.EF.csproj", "{7AD49A6C-2496-48DC-B04A-BBC5BC8CC9DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChasesDrPepperStore.DATA.EF", "ChasesDrPepperStore.DATA.EF\ChasesDrPepperStore.DATA.EF.csproj", "{7AD49A6C-2496-48DC-B04A-BBC5BC8CC9DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

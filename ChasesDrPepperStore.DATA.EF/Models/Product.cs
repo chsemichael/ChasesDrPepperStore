@@ -14,8 +14,9 @@ namespace ChasesDrPepperStore.DATA.EF.Models
         public bool IsDiscontinued { get; set; }
         public short CategoryId { get; set; }
         public int? SupplierId { get; set; }
+        public string? ProductImage { get; set; }
 
-        public virtual Category Category { get; set; } = null!;
+        public virtual Category? Category { get; set; } = null!;
         public virtual Supplier? Supplier { get; set; }
     }
 }
